@@ -40,8 +40,8 @@
         <nav class="nav nav-left" style="margin-top: 1rem; margin-bottom: 1rem;">
           <div style="display: flex; justify-content: center; width: 100%; gap: 1rem; padding: 0 1rem;">
             <button class="tab-button" style="width: 30%;" @click="goToRoute('/')">Acasă</button>
-            <button class="tab-button" style="width: 30%;" @click="goToRoute('/aparatura')">Aparatură</button>
-            <button class="tab-button" style="width: 30%;" @click="goToHomeSection('contact')">Contact</button>
+            <button class="tab-button" style="width: 30%;" @click="scrollToSection('products')">Produse</button>
+            <button class="tab-button" style="width: 30%;" @click="scrollToSection('contact')">Contact</button>
           </div>
         </nav>
       </div>
